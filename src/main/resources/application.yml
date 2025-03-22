@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: "pallas"
+  profiles:
+    active: @spring.profile@
