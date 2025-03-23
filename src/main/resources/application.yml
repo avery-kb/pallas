@@ -3,3 +3,5 @@ spring:
     name: "pallas"
   profiles:
     active: @spring.profile@
+  datasource:
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
